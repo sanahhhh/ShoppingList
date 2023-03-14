@@ -1,8 +1,8 @@
 package com.example.shoppinglist.domain
 
-class GetShopList {
+class GetShopList (private val shopListInterface: ShopListInterface) {
 
     fun getShopList(): List<ShopItem> {
-        TODO()
+        return shopListInterface.getShopList()
     }
 }
