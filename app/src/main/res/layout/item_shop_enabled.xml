@@ -23,7 +23,7 @@
         android:padding="16dp">
         
         <TextView
-            android:id="@+id/tv_name_enabled"
+            android:id="@+id/tv_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -35,7 +35,7 @@
         </TextView>
 
         <TextView
-            android:id="@+id/tv_count_enabled"
+            android:id="@+id/tv_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"

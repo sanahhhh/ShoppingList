@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.shoppinglist">
 
@@ -12,9 +13,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ShoppingList"
-        tools:targetApi="31">
+        tools:targetApi="32">
         <activity
-            android:name=".presentation.MainActivity"
+            android:name=".presentation.shop_item_activity.ShopItemActivity"
+            android:windowSoftInputMode="adjustResize"/>
+
+        <activity
+            android:name=".presentation.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
