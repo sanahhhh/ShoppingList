@@ -10,8 +10,6 @@ import com.example.shoppinglist.domain.ShopItem
 import com.example.shoppinglist.domain.use_cases.AddShopItemUseCase
 import com.example.shoppinglist.domain.use_cases.EditShopItemUseCase
 import com.example.shoppinglist.domain.use_cases.GetShopItemUseCase
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class ShopItemViewModel(application: Application) : AndroidViewModel(application) {

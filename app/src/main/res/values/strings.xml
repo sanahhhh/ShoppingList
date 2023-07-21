@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">ShoppingList</string>
+    <string name="app_name">Покупочки</string>
     <string name="add_new_shop_item">Добавить новый элемент</string>
     <string name="name_item">Батон</string>
     <string name="count">1</string>
-    <string name="name_hint">Имя:</string>
+    <string name="name_hint">Название</string>
     <string name="count_hint">Количество:</string>
     <string name="save_btn">Сохранить</string>
-    <string name="error_input_name">Ошибка имени</string>
-    <string name="error_input_count">Ошибка количества</string>
+    <string name="error_input_name">Пустое поле или неверное название</string>
+    <string name="error_input_count">Пустое поле или неверное количество</string>
 </resources>
